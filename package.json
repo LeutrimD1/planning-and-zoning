@@ -8,7 +8,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "deploy": "gh-pages -d dist",
-    "pre-deploy" : "npx expo export"
+    "pre-deploy" : "npx expo export -p web"
   },
   "dependencies": {
     "@expo/ui": "~0.2.0-beta.7",
